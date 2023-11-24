@@ -1,0 +1,3 @@
+:80 {
+	reverse_proxy /  whoami-1:80 whoami-2:80 whoami-3:80 whoami-4:80
+}
